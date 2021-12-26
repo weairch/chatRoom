@@ -1,4 +1,4 @@
 package com.example.chatroom.model;
 
-public class chatMessage {
+public class ChatMessage {
 }
