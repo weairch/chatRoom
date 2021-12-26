@@ -6,6 +6,6 @@ import lombok.Data;
 @Data
 public class ChatMessage {
     private ChatType chatType;
-    private String message;
+    private String sender;
     private String content;
 }
