@@ -29,7 +29,7 @@ pipeline {
         }
         stage("enter project") {
             steps {
-                sh "cd tmp/chatRoom"
+                sh "cd /tmp/chatRoom"
             }
         }
         stage("pull the latest code") {
