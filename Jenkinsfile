@@ -34,7 +34,7 @@ pipeline {
         }
         stage("pull the latest code") {
             steps {
-                sh "git pull"
+                sh "git pull https://github.com/weairch/chatRoom.git master"
             }
         }
     }
